@@ -1,0 +1,112 @@
+/* fonts */
+@font-face{
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('/fonts/ITC Avant Garde Gothic LT Extra Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('/fonts/ITC Avant Garde Gothic LT Bold.otf');
+    font-weight: 600;
+    font-style: bold;
+}
+
+@font-face{
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('/fonts/ITC Avant Garde Gothic Book Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'ITC Avant Garde Gothic';
+    src: url('/fonts/ITC Avant Garde Gothic Oblique.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* style */
+body, html, #root {
+  height: 100%;
+  font-family: 'ITC Avant Garde Gothic';
+}
+
+h1, h5, h6 {
+  font-weight: bold;
+}
+
+.bg-login {
+  background: url('/images/login_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-main {
+  background: linear-gradient(45deg, #1a578d, #66cdcc);
+}
+
+.bg-vw-dark {
+  background-color: rgb(0, 90, 125);
+}
+
+.bg-vw-darkest {
+  background-color: #004f75;
+}
+
+.bg-vw-light {
+  background-color: rgb(45, 204, 211);
+}
+
+.bg-vw-excel {
+  background-color: #297148;
+}
+
+.text-vw-dark {
+  color: rgb(0, 90, 125);
+}
+
+.text-vw-light {
+  color: rgb(45, 204, 211);
+}
+
+.logo {
+  height: 40px;
+}
+
+.table-clickable tr {
+  cursor: pointer;
+}
+
+.list-undecorated {
+  list-style-type: none;
+  padding: 0;
+}
+
+.text-break {
+  white-space: pre-line;
+  word-break: break-all;
+}
+
+.text-monospace {
+  font-family:monospace;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.box-iconed {
+  min-height: 100px;
+  text-align: center;
+}
+
+.box-border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
